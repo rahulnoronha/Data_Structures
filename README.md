@@ -1,0 +1,1 @@
+This is the collection of all the programs encountered in the Data Structures Course using C Programming language.
