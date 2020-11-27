@@ -2,7 +2,8 @@
 ---
 Data Structures programs done in Semester 3
 ---
-
+![Data Structures](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fdifference-between-linear-and-non-linear-data-structures%2F&psig=AOvVaw28bnYYHwzBugxEK4MuHgnF&ust=1606528834001000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMiT57fQoe0CFQAAAAAdAAAAABAP)
+---
 This is the collection of all the programs encountered in the **Data Structures Course** and they are done using the **C** Programming language.
 
 Following are the topics covered
