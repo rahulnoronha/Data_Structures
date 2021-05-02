@@ -56,6 +56,7 @@ int main()
                 break;
             default:
                 printf("Invalid entry\nRetry\n");
+                break;
         }
     }
     return 0;
