@@ -29,11 +29,11 @@ int main()
         scanf("%d",&r2);
         printf("Enter the number of columns of the second matrix\n");
         scanf("%d",&c2);
-        int Array2[r1][c1];
+        int Array2[r2][c2];
         printf("Enter the array elements\n");
-        for (int i = 0; i<r1; i++)
+        for (int i = 0; i<r2; i++)
         {
-            for(int j = 0; j<c1; j++)
+            for(int j = 0; j<c2; j++)
             {
                 scanf("%d",&Array2[i][j]);
             }

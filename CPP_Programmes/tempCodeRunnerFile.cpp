@@ -1,0 +1,1 @@
+Array[i] = new int[col];
