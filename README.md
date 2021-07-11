@@ -2,7 +2,7 @@
 ---
 Data Structures programs done in Semester 3
 ---
-![Data Structures](https://media.geeksforgeeks.org/wp-content/uploads/20191010170332/Untitled-Diagram-183.png)
+![Data Structures](Images/Types.png)
 ---
 This is the collection of all the programs encountered in the **Data Structures Course** and they are done using the **C, C++, Java and Python3** Programming languages.
 
