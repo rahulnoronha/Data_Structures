@@ -1,7 +1,11 @@
-
+.vscode
 *.out
 *.exe
 *.class
 .vscode
 tempCodeRunnerFile.cpp
 *.o
+2D_Array_Search
+Matrix_Operations
+Queue_Array_Implementation
+Stack_Array_Implementation

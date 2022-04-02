@@ -71,7 +71,7 @@ def main():
             for j in range(c2):
                 matrix2[i].append(int(input()))
         
-        choice = int(input("Enter \n1 for Matrtix addition\n2 for Matrix Subtraction\n3 for Matrix Multiplication\n4 to Quit\n"))
+        choice = int(input("Enter \n1 for Matrix addition\n2 for Matrix Subtraction\n3 for Matrix Multiplication\n4 to Quit\n"))
         if(choice==1):
             Add(r1, c1, r2, c2, matrix1, matrix2)
         elif(choice==2):

@@ -38,7 +38,7 @@ int main()
                 scanf("%d",&Array2[i][j]);
             }
         }
-        printf("Enter 1 for Matrtix addition\n2 for Matrix Subtraction\n3 for Matrix Multiplication\n4 to Quit\n");
+        printf("Enter 1 for Matrix addition\n2 for Matrix Subtraction\n3 for Matrix Multiplication\n4 to Quit\n");
         scanf("%d",&choice);
         switch(choice)
         {

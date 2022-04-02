@@ -119,7 +119,7 @@ int main()
                 cin>>Array2[i][j];
             }
         }
-        cout<<"Enter 1 for Matrtix addition\n2 for Matrix Subtraction\n3 for Matrix Multiplication\n4 to Quit"<<endl;
+        cout<<"Enter 1 for Matrix addition\n2 for Matrix Subtraction\n3 for Matrix Multiplication\n4 to Quit"<<endl;
         cin>>choice;
         switch(choice)
         {
