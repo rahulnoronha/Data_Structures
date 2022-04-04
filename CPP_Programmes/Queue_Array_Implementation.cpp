@@ -84,7 +84,7 @@ void enqueue()
        cout<<"Enter the element you want to enqueue into the queue"<<endl;
         cin>>element;
         Queue[rear]=element;
-       cout<<"The elemenet "<<element<<" has been enqueued into the queue"<<endl;
+       cout<<"The element "<<element<<" has been enqueued into the queue"<<endl;
         return;
     }
 }
@@ -101,7 +101,7 @@ void dequeue()
         int element;
         element = Queue[front];
         front += 1;
-       cout<<"The elemenet " <<element<<" has been dequeued from the queue"<<endl;
+       cout<<"The element " <<element<<" has been dequeued from the queue"<<endl;
         return;
     }
 }

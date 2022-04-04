@@ -61,7 +61,7 @@ void push()
         cout<<"Enter the element you want to push into the stack"<<endl;
         cin>>element;
         stack[top]=element;
-        cout<<"The elemenet "<<element<<" has been pushed into the stack"<<endl;
+        cout<<"The element "<<element<<" has been pushed into the stack"<<endl;
         return;
     }
 }
@@ -78,7 +78,7 @@ void pop()
         int element;
         element = stack[top];
         top-=1;
-        cout<<"The elemenet "<<element<<" has been popped from the stack"<<endl;
+        cout<<"The element "<<element<<" has been popped from the stack"<<endl;
         return;
     }
 }
@@ -94,7 +94,7 @@ void peek()
     {
         int element;
         element = stack[top];
-        cout<<"The elemenet "<<element<<" is at the top of the stack"<<endl;
+        cout<<"The element "<<element<<" is at the top of the stack"<<endl;
         return;
     }
 }

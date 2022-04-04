@@ -84,7 +84,7 @@ void enqueue()
         printf("Enter the element you want to enqueue into the queue\n");
         scanf("%d",&element);
         Queue[rear]=element;
-        printf("The elemenet %d has been enqueued into the queue\n",element);
+        printf("The element %d has been enqueued into the queue\n",element);
         return;
     }
 }
@@ -101,7 +101,7 @@ void dequeue()
         int element;
         element = Queue[front];
         front += 1;
-        printf("The elemenet %d has been dequeued from the queue\n",element);
+        printf("The element %d has been dequeued from the queue\n",element);
         return;
     }
 }

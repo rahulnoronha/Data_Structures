@@ -60,7 +60,7 @@ void push()
         printf("Enter the element you want to push into the stack\n");
         scanf("%d",&element);
         stack[top]=element;
-        printf("The elemenet %d has been pushed into the stack\n",element);
+        printf("The element %d has been pushed into the stack\n",element);
         return;
     }
 }
@@ -77,7 +77,7 @@ void pop()
         int element;
         element = stack[top];
         top-=1;
-        printf("The elemenet %d has been popped from the stack\n",element);
+        printf("The element %d has been popped from the stack\n",element);
         return;
     }
 }
@@ -93,7 +93,7 @@ void peek()
     {
         int element;
         element = stack[top];
-        printf("The elemenet %d is at the top of the stack\n",element);
+        printf("The element %d is at the top of the stack\n",element);
         return;
     }
 }
