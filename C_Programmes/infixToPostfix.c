@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<ctype.h>
 #include<string.h>
-#define MAX 100
+#define MAX 200
 char infix[MAX];
 char postfix[MAX];
 char stack[MAX];
@@ -31,7 +31,12 @@ void InfixToPostfix()
 while(infix[i]!='\0')
 {
     choice=infix[i];
-    if(isalnum(choice))
+    if(choice==' ')
+    {
+        i++;
+        continue;
+    }
+    else if(isalnum(choice))
     {
         postfix[j]=choice;
         postfix[++j]='\0';
@@ -45,8 +50,8 @@ while(infix[i]!='\0')
         char a;
         while((a=pop())!='(')
         {
-        postfix[j]=a;
-        postfix[++j]='\0';
+            postfix[j]=a;
+            postfix[++j]='\0';
         }
     }
     else
@@ -54,8 +59,9 @@ while(infix[i]!='\0')
         while (precedence(stack[top])>=precedence(choice))
         {
             postfix[j]=pop();
-        postfix[++j]='\0';
-            }push(choice);
+            postfix[++j]='\0';
+        }
+        push(choice);
     }
     i++;
 
@@ -65,8 +71,10 @@ printf("The postfix expression is %s\n",postfix);
 int main()
 {
     printf("Enter an infix expression\n");
-    scanf("%s",infix);
+    scanf("%[^\n]s",infix);
     int len=strlen(infix);
+    printf("%s\n",infix);
+    printf("%d\n",len);
     infix[len]=')';
     infix[++len]='\0';
     push('(');

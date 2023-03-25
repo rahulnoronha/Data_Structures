@@ -33,7 +33,12 @@ void InfixToPostfix()
 while(infix[i]!='\0')
 {
     choice=infix[i];
-    if(isalnum(choice))
+    if(choice==' ')
+    {
+        i++;
+        continue;
+    }
+    else if(isalnum(choice))
     {
         postfix[j]=choice;
         postfix[++j]='\0';
@@ -67,10 +72,11 @@ cout<<"The postfix expression is "<<postfix<<endl;
 int main()
 {
     cout<<"Enter an infix expression"<<endl;
-    cin>>infix;
+    cin.getline(infix, MAX);
     int len=strlen(infix);
     infix[len]=')';
     infix[++len]='\0';
+    cout<<infix;
     push('(');
     InfixToPostfix();
     return 0;
