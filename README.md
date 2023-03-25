@@ -11,7 +11,7 @@ Following are the topics covered
 - [x] **2. Matrix operations**
 - [x] **3. Stack Implementation using Array**
 - [x] **4. Queue Implementation using Array**
-- [ ] **5. Conversion of expression from infix to postfix**
+- [x] **5. Conversion of expression from infix to postfix**
 - [ ] **6. Evaluation of a postfix expression**
 - [ ] **7. Linked list**
 - [ ] **8. Stack Implementation using Linked list**
